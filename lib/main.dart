@@ -17,16 +17,26 @@ class MyApp extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Image.asset('assets/handshaking.png', height: 120, width: 120),
+                Image.asset(
+                  'assets/handshaking.png', 
+                   height: 120, 
+                    width: 120
+                    ),
                 SizedBox(height: 15),
                 Text(
                   "Hello Viewer",
-                  style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+                  style: TextStyle(
+                    fontSize: 22, 
+                    fontWeight: FontWeight.bold
+                  ),
                 ),
                 SizedBox(height: 10),
                 Text(
                   "What's happening? All good?",
-                  style: TextStyle(fontSize: 16, color: Colors.blue),
+                  style: TextStyle(
+                    fontSize: 16,
+                    color: Colors.blue
+                  ),
                 ),
               ],
             ),
