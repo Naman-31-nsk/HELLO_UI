@@ -27,7 +27,6 @@ class MyApp extends StatelessWidget {
                   "Hello Viewer",
                   style: TextStyle(
                     fontSize: 22, 
-                    fontWeight: FontWeight.bold
                   ),
                 ),
                 SizedBox(height: 10),
